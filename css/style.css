@@ -1,0 +1,266 @@
+:root {
+    --coloryellow: #fdf9b5;
+    --colorblue: #78c6fd;
+    --colorred: #ff5a5a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite ;
+    font-family: 'Poppins', sans-serif;
+}
+/* ------header------ */
+.container__header {
+    width: 100%;
+    min-height: 48vw;
+    max-height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg,#1f689deb, #b3af57c7, #e93a3ac8),
+    url(/img/ronal-labrador-cgwK0waZ-ss-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: solid 3px #78c6fd; 
+}
+
+.header__title {
+    padding: 20px ;
+    text-align: center;
+}
+
+.text-title1 {
+    font-size: 100px ;
+    color: rgb(255, 255, 255);
+    border-bottom:solid 3px #233a7b;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.713);
+}
+
+.text-title2 {
+    font-size: 50px;
+    text-shadow: 0 5px 5px rgba(129, 131, 136, 0.673);
+    color: #1b316c;
+}
+
+.header__cta {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 30px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1b316c;
+    border-radius: 10px;
+    border: solid 5px #1b316c;
+}
+
+.header__cta:hover {
+    color: aliceblue;
+    background-color: #106099;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.508);
+}
+
+/* ---parte del Main - conteiner--- */
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    margin: 30px;
+    min-height: 80vw;
+    max-height: 800vw;
+    border: 3px dotted #106099;
+    border-radius: 10px;
+}
+
+.section__container {
+    margin: 30px;
+}
+/* --- container - arepa --- */
+.art__container{
+    padding: 50px;
+    background-color: var(--coloryellow);
+    border-radius: 10px;
+}
+
+.conteiner-art {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*---- texto - conatainer ----*/
+
+.text_container {
+    min-height: 200px;
+    max-height: 800px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--colorblue);
+    border-radius: 10px;
+}
+.text_container h2 {
+    margin: 20px;
+    color: #233a7b;
+    font-size: 50px;
+    text-decoration: underline;
+    padding-bottom: 15px;
+}
+
+.text_container p {
+    padding: 10px;
+    color: #1b316c;
+    font-size: 30px;
+}
+
+/*---- texto - arepa ----*/
+.background {
+    width: 950px;
+    height: 150vw;
+    max-width: 500px;
+    max-height: 800px;
+    margin: 55px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 3px dashed #78c6fd;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    text-decoration: underline;
+    font-size: 50px;
+    color: var(--colorred);
+}
+
+.container-list {
+   padding: 0 60px;
+}
+
+.menu-list {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.list {
+    width: 100px;
+    margin: 0 auto;
+    left: 50px;
+    padding: 20px 0px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.list2 {
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+/* img - arepa */
+.cont_visual {
+    align-items: center;
+    width: 950px;
+}
+
+.img-1 {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+    border: 3px solid #78c6fd;
+    border-radius: 20px;
+}
+
+.img-2 {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    object-fit: cover;
+    border: 3px solid #78c6fd;
+    border-radius: 20px;
+}
+
+/* video */
+
+.video-iframe {
+    margin: 30px;
+    margin-left: 80px;
+}
+
+/* ---------- PARTE SECTION DE LOS TEQUEÑOS-------- */
+
+.art2__container {
+    margin-top: 150px;
+    padding: 50px;
+    background-color: var(--colorblue);
+    border-radius: 10px;
+}
+
+/* ------ GPS Y VIDEO ------ */
+
+.container__media {
+    margin: 10px;
+    padding: 20px;
+    background-color: var(--colorred);
+    border-radius: 10px
+}
+.iframe{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title__vnzla {
+    text-align: center;
+    margin: 10px;
+    font-size: 40px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.gps_vnzla {
+    margin: 0 auto;
+}
+
+.audio__music {
+    margin-top: 20px;
+}
+
+/* ------ FOOTER ------ */
+
+.cont__footer {
+    width: auto;
+    height: 8rem;
+    background-color: #233a7b;
+    border-top: 3px solid #78c6fd;
+}
+
+.creador {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.creador h2 {
+    padding: 0 15px;
+    font-size: 1.5rem;
+}
+
+.creador h3 {
+    font-size: 1.5rem;
+}
