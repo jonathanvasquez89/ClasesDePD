@@ -6,128 +6,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Venezuela</title>
     <!-- file CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/4abedccfe8.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- fonts Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    
 
 </head>
 <body>
-    <!--****Header.****-->
-    <header class="container__header">
-        <div class="header__title">
-            <h1 class="text-title1">Mi Venezuela Querida</h1>
+    <!--****Header_Con_Nav****-->
+    <header>
+        <div class="header__container">
+            <h1 class="header__title">Mi Venezuela Querida</h1>
+            <div class="title_containe">
+                <h2 class="title_turismo">Conoce el Turismo de Venezuela</h2>
+                <a href="https://www.youtube.com/watch?v=06qhL4q7OOs"  class="turismo--cta" target="_blank">Turismo aquí</a>
+            </div>
         </div>
-        <div class="header__title">
-            <h2 class="text-title2">Conoce Nuestra Historia</h2>
-            <a href="https://www.youtube.com/watch?v=awhC5ARaClg" class="header__cta" target="_blank">Historia aquí</a>
-        </div>
-    </header>
-    <!-- main -->
-    <main class="main">   
-        <section class="section__container">
-            <!-------- primer Articulo ------------>
-            <article class="art__container">
-                <div class="text_container">
-                    <h2>"Comidad Tipica de Venezuela"</h2>
-                    <p>Las comidas más conocidas de la gastronomía venezolana 
-                    son las asociadas con el maíz, más que nada con las harinas
-                    de maíz, por las famosas arepas; también el pabellón criollo,
-                    con su arroz blanco, los frijoles negros, la carne mechada y el plátano. 
-                    Venezuela ha logrado diferentes síntesis en sus platos variadísimos, 
-                    bebidas y dulces, que recuperan varias  tradiciones mezclándolas en una 
-                    cocina sabrosa, de platos abundantes y nutritivos.
-                    pero en este caso vamos hablar de solos 2 tipos de platos que son:
-                    </p>
-                </div>
-                <div class="conteiner-art">
-                    <div class="background">
-                        <div class="title">
-                            <h2>Arepas</h2>
-                        </div>    
-                        <div class="container-list">
-                            <ul>
-                                <li>
-                                    <span class="menu-list">Tipos de Arepas:</span>
-                                    <ol class="list">
-                                        <li class="list">Perico</li>
-                                        <li class="list">Gringa</li>
-                                        <li class="list">Llanera</li>
-                                        <li class="list">Mechada</li>
-                                        <li class="list">Pelúa</li>
-                                        <li class="list">Pernil</li>
-                                    </ol>
-                                </li>
-                            </ul>
-                        </div>
-                   </div>
-                    <div class="cont_visual">
-                        <img class="img-1" src="img/arepa2.jpg" alt="" width="400px">
-                        <img class="img-2" src="img/arepa1.jpg" alt="" width="400px">
+    </header> 
+    <!-- ## NAV ### -->
+    <nav class="nav__conatainer">
+        <ul class="nav">
+            <li>
+                <a class="nav_link" href="https://viajerocasual.com/comidas-tipicas-de-venezuela/"  target="_blank">Gastronomia</a>
+            </li>
+            <li>
+                <a class="nav_link" href="https://www.venezuelatuya.com/musica/" target="_blank">Musica</a>
+            </li>
+            <li>
+                <a class="nav_link" href="https://astelus.com/bailes-tipicos-venezuela/" target="_blank">Danza</a>
+            </li>
+            <li>
+                <a class="nav_link" href="https://www.youtube.com/watch?v=awhC5ARaClg&t=10s"  target="_blank">Historia</a>
+            </li>
+        </ul>
+    </nav>
+     <!--------## primer Articulo ##------------>
+    <section class="section__container">
+        <article class="art__container">
+            <div class="container_tipica">
+                <h2 class="title_tipica">"Comidad Tipica de Venezuela"</h2>
+                <p class="text_pagraf">Las comidas más conocidas de la gastronomía venezolana 
+                son las asociadas con el maíz, más que nada con las harinas
+                de maíz, por las famosas arepas; también el pabellón criollo,
+                con su arroz blanco, los frijoles negros, la carne mechada y el plátano. 
+                Venezuela ha logrado diferentes síntesis en sus platos variadísimos, 
+                bebidas y dulces, que recuperan varias  tradiciones mezclándolas en una 
+                cocina sabrosa, de platos abundantes y nutritivos.
+                pero en este caso vamos hablar de solos 2 tipos de platos que son:
+                </p>
+            </div>
+            <div class="conteiner-art">
+                <h2 class="title">Arepas</h2>
+                <div class="menu__conatiner">
+                    <div class="container-list">
+                        <h3 class="title__menu">Tipos de arepas</h3>
+                        <ul class="list_menu">
+                            <li>
+                                <ol class="list1">
+                                    <li class="list">Perico</li>
+                                    <li class="list">Gringa</li>
+                                    <li class="list">Llanera</li>
+                                    <li class="list">Mechada</li>
+                                    <li class="list">Pelúa</li>
+                                    <li class="list">Pernil</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visual__conatiner">
+                        <img class="img img--1" src="./img/arepa2.jpg" alt="img-Arepa" >
+                        <img class="img img--2" src="./img/arepa1.jpg" alt="img_2-Arepa" >
                         <iframe class="video-iframe" width="700px" height="400px" src="https://www.youtube.com/embed/ZyLq2VNr428" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-            </article>
-            <!-------- Segundo Articulo ----------->
-            <article class="art2__container">
-                <div class="text_container">
-                    <h2>¿Qué es tequeño en español?</h2>
-                    <p>Adjetivo. Persona originaria o habitante de Los Teques, en Venezuela. 
-                        Se dice de algo que proviene o tiene relación con Los Teques,en Venezuela.
-                    </p>
-                </div>
-                <div class="conteiner-art">
-                    <div class="background">
-                        <div class="title">
-                            <h2>Tequeños</h2>
-                        </div>    
-                        <div class="container-list">
-                            <ul>
-                                <li>
-                                    <span class="menu-list">Ingredientes</span>
-                                    <ol class="list2">
-                                        <li class="list2">1/2 kg. de harina de trigo con fuerza W220 o harina de trigo con 11,5 - 12,5 % de proteínas</li>
-                                        <li class="list2">1 huevo grande</li>
-                                        <li class="list2">120 g. de mantequilla</li>
-                                        <li class="list2">1/2 cucharada de sal</li>
-                                        <li class="list2">110 ml de agua tibia</li>
-                                        <li class="list2">Queso blanco duro llanero (el de San Simón da Costa Daniberto de Galicia Calidade le va perfecto) cortado en palitos de unos 7 x 2 cm.</li>
-                                        <li class="list2">100 g. de jamón cocido o jamón de pavo (para hacer 2 tipos de tequeños)</li>
-                                        <li class="list2">Aceite de oliva virgen extra suave para freir</li>
-                                    </ol>
-                                </li>
-                            </ul>
-                        </div>
-                   </div>
-                    <div class="cont_visual">
-                        <img class="img-1" src="img/teque1.jpg" alt="img-1">
-                        <img class="img-2" src="img/teque2.jpg" alt="img-2">
+            </div>
+        </article>
+        <!--------## Segundo Articulo ##----------->
+        <article class="art__container art2">
+            <div class="container_tipica">
+                <h2 class="title_tipica">¿Qué es tequeño en español?</h2>
+                <p class="text_pagraf">Adjetivo. Persona originaria o habitante de Los Teques, en Venezuela. 
+                    Se dice de algo que proviene o tiene relación con Los Teques, en Venezuela.</p>
+            </div>
+            <div class="conteiner-art">
+                <h2 class="title">Tequeños</h2>
+                <div class="menu__conatiner">
+                    <div class="container-list">
+                        <h3 class="title__menu">Ingredientes</h3>
+                        <ul class="list_menu">
+                            <li>
+                                <ol class="list2">
+                                    <li class="list">1/2 kg. de harina de trigo con fuerza W220 o harina de trigo con 11,5 - 12,5 % de proteínas</li>
+                                    <li class="list">1 huevo grande</li>
+                                    <li class="list">120 g. de mantequilla</li>
+                                    <li class="list">1/2 cucharada de sal</li>
+                                    <li class="list">110 ml de agua tibia</li>
+                                    <li class="list">Queso blanco duro llanero (el de San Simón da Costa Daniberto de Galicia Calidade le va perfecto) cortado en palitos de unos 7 x 2 cm.</li>
+                                    <li class="list">100 g. de jamón cocido o jamón de pavo (para hacer 2 tipos de tequeños)</li>
+                                    <li class="list">Aceite de oliva virgen extra suave para freir</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visual__conatiner">
+                        <img class="img img--1" src="./img/teque1.jpg" alt="img-tequeños">
+                        <img class="img img--2" src="./img/teque2.jpg" alt="img_2-Tequeños">
                         <iframe class="video-iframe" width="700px" height="400px" src="https://www.youtube.com/embed/Rc6mMDd5elQ" title="YouTube video player"
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-            </article>
-    </section>
-    <section class="container__media">
-        <div class="iframe">
-            <div class="gps_vnzla">
-                <h2 class="title__vnzla">MAPA DE VENEZUELA</h2>
-                <iframe class="mapa_vnzla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8116212.557405608!2d-71.12676476159272!3d6.647612704215178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1ses-419!2sar!4v1663127482826!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div> 
-            <div class="container__audio">
-                <audio class="audio__music" 
-                    src="audio/y2mate.com - VIVA VENEZUELA  UN SOLO PUEBLO.mp3" controls autoplay>
-                </audio>
             </div>
+        </article>
+        <div class="sect__map">
+            <h2 class="title__vnzla">MAPA DE VENEZUELA</h2>
+            <iframe class="mapa_vnzla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8116212.557405608!2d-71.12676476159272!3d6.647612704215178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1ses-419!2sar!4v1663127482826!5m2!1ses-419!2sar"
+             width="600" height="450" style="border: solid 7px white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            <audio class="audio__music" src="audio/y2mate.com - VIVA VENEZUELA  UN SOLO PUEBLO.mp3" controls></audio>
         </div>
-    </section>   
-    </main>
-    <footer class="cont__footer">
-        <div class="creador">
-            <h2>Creado por :</h2>
-            <h3>Jonathan Vasquez</h3>
+    </section>
+    <!-- buttom__whatsapp -->
+        <div class="container__btc--wsp">
+            <a href="https://wa.me/+541155283823" target="_blank">
+                <img class="btc__wsp" src="img/whatsapp.svg" alt="">
+            </a>
+        </div>
+  <!------## footer ##------->
+    <footer class="footer__conta">
+        <div class="footer__media">
+            <div class="text__autor">
+                <h3>Autor:<span class="name">Jonathan Vasquez</span></h3>
+            </div>
+            <div class="social__container">
+                <a href="https://www.facebook.com/jonat.vas" class="fa fa-facebook redes_social social--face " target="_blank"></a>
+                <a href="https://www.instagram.com/jonatdance/" class="fa fa-instagram redes_social social--insta" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/jonathan-vasquez-72a30b24b/" class="fa fa-linkedin redes_social social--link" target="_blank"></a>
+            </div>
         </div>
     </footer>
     </body>
