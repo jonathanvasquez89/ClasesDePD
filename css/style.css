@@ -22,7 +22,7 @@ header {
     width: 100%;
     min-height: 850px;
     max-height: 200vw;
-    background-image: linear-gradient(to right, #0202029e 0%, #5471878f 100%), url(/img/header_fondo.jpg);
+    background-image: linear-gradient(to right, #0202029e 0%, #5471878f 100%), url(../img/header_fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -148,9 +148,10 @@ header {
 
 .conteiner-art {
     height: 70vw;
+    max-height: 650vw;
     padding: 20px;
     margin-top: 200px;
-    background-image:linear-gradient(rgba(43, 50, 102, 0.544), rgba(0, 0, 0, 0.813)), url(/img/fondo.jpg) ;
+    background-image:linear-gradient(rgba(43, 50, 102, 0.544), rgba(0, 0, 0, 0.813)), url(../img/fondo.jpg) ;
     background-size: cover;
     object-fit: cover;
     border-radius: 20px;
