@@ -1,0 +1,326 @@
+:root {
+    --coloryellow: rgb(212, 206, 89);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 300px;
+}
+
+body {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    font-family: 'Poppins', sans-serif;
+}
+/* ------#### Header ####------ */
+header {
+    width: 100%;
+    min-height: 850px;
+    max-height: 200vw;
+    background-image: linear-gradient(to right, #0202029e 0%, #5471878f 100%), url(./img/header_fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__container {
+    text-align: center;
+    padding-top: 300px;
+}
+
+.header__title {
+    font-size: 6em;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.687);
+}
+
+.title_containe {
+     padding: 50px;
+}
+
+.title_turismo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #000000;
+    color: var(--coloryellow);
+}
+
+
+.turismo--cta {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 60px;
+    height: 80px;
+    width: 300px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 3px solid var(--coloryellow);
+}
+
+.turismo--cta:hover {
+    background-color: rgba(212, 206, 89, 0.378);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.426);
+}
+
+/* ----#### NAV ####---- */
+
+.nav__conatainer {
+    width: 100%;
+    height: 8rem;
+    background-color: #09203fb1;
+    border-bottom:4px solid #0b3e655c;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.nav_link {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 0;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    transition: all .50s ease;
+    font-weight: bold;
+}
+
+.nav_link:hover {
+    font-weight: bold;
+    color: #537895;
+    padding: 50px 0;
+    background-color: #09203f;
+    transition: all .40s ease;
+    border-radius: 10px;
+}
+/* -----#### Articulo ####----- */
+.section__container {
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+    margin: 30px;
+}
+
+.art__container {
+    padding: 30px;
+}
+
+.container_tipica {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title_tipica {
+    padding-top: 30px;
+    font-size: 60px;
+    border-bottom:3px solid #09203f;
+}
+
+.text_pagraf {
+    margin-top: 40px;
+    padding: 20px;
+    font-size: 30px;
+    border: 3px dashed #09203f;
+
+}
+/* ----#### Art interno ####---- */
+
+.conteiner-art {
+    height: 70vw;
+    padding: 20px;
+    margin-top: 200px;
+    background-image:linear-gradient(rgba(43, 50, 102, 0.544), rgba(0, 0, 0, 0.813)), url(/img/fondo.jpg) ;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    border:3px solid rgb(13, 129, 175);
+}
+
+.title {
+    width: 300px;
+    font-size: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    background-color: #09203fda;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu__conatiner {
+    width: 100%;
+    height: 60vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-list {
+    right: 500px;
+    width: 500px;
+    height:600px;
+    background-color: #537895;
+    border-radius: 30px;
+
+}
+
+.title__menu {
+    font-size: 40px;
+    padding: 30px 0;
+    text-align: center;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    background-color: #09203f;
+    border-radius: 15px 15px 0 0;
+}
+
+.list_menu {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.list1 {
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.list2 {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.visual__conatiner {
+    width: 60vw;
+    height: 900px;
+}
+
+.img {
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    margin: 90px 20px;
+    background: linear-gradient(45deg, rgb(245, 79, 79), rgb(101, 161, 245), rgb(234, 215, 109));
+}
+
+.video-iframe {
+    margin-left: 200px;
+}
+/* ----#### Map y audio ####---- */
+.sect__map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vw;
+    background-color: #537895;
+}
+
+.title__vnzla {
+    font-size: 40px;
+    border-bottom:2px solid rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+
+.mapa_vnzla {
+    margin-bottom: 50px;
+}
+
+.audio__music {
+    width: 500px;
+    height: 60px;
+}
+
+.container__btc--wsp {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #537895;
+}
+
+.btc__wsp {
+    width: 100%;
+    z-index: 9999;
+}
+/* ### FOOTER ### */
+.footer__conta {
+    height: 10em;
+    width: 100%;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    border-top: solid 3px rgb(127, 127, 127);
+}
+
+.footer__media {
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.text__autor {
+    width: 500px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.name {
+    margin: 15px;
+    border-bottom: 1px solid white;
+}
+
+.social__container {
+    display: inline-flex;
+    align-items: center;
+    width: 335px;
+    height: 120px;
+    text-align: center;
+    background-color: #29323c8e;
+    border-radius: 30px;
+}
+
+.redes_social {
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.social--face:hover {
+    color: var(--coloryellow);
+}
+
+.social--insta:hover {
+    color: blue;
+}
+
+.social--link:hover {
+    color: red;
+}
