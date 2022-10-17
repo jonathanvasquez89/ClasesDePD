@@ -19,38 +19,41 @@
 </head>
 <body>
     <!--****Header_Con_Nav****-->
-    <header>
-        <div class="header__container">
-            <h1 class="header__title">Mi Venezuela Querida</h1>
-            <div class="title_containe">
+    <header class="hero container">
+        <nav class="hero__nav"> 
+            <figure class="hero__logo">
+                <img  src="./img/logo.png" class="logo">
+            </figure>
+            <ul class="nav_link_container">
+                <li>
+                    <a class="nav_link" href="https://viajerocasual.com/comidas-tipicas-de-venezuela/"  target="_blank">Gastronomia</a>
+                </li>
+                <li>
+                    <a class="nav_link" href="https://www.venezuelatuya.com/musica/" target="_blank">Musica</a>
+                </li>
+                <li>
+                    <a class="nav_link" href="https://astelus.com/bailes-tipicos-venezuela/" target="_blank">Danza</a>
+                </li>
+                <li>
+                    <a class="nav_link" href="https://www.youtube.com/watch?v=awhC5ARaClg&t=10s"  target="_blank">Historia</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="hero__container">
+            <h1 class="hero__title">Mi Venezuela Querida</h1>
+            <div class="subtitle_container">
                 <h2 class="title_turismo">Conoce el Turismo de Venezuela</h2>
-                <a href="https://www.youtube.com/watch?v=06qhL4q7OOs"  class="turismo--cta" target="_blank">Turismo aquí</a>
+                <a href="https://www.youtube.com/watch?v=06qhL4q7OOs" class="turismo__cta cta" target="_blank">Turismo aquí</a>
             </div>
-        </div>
+        </section>
     </header> 
-    <!-- ## NAV ### -->
-    <nav class="nav__conatainer">
-        <ul class="nav">
-            <li>
-                <a class="nav_link" href="https://viajerocasual.com/comidas-tipicas-de-venezuela/"  target="_blank">Gastronomia</a>
-            </li>
-            <li>
-                <a class="nav_link" href="https://www.venezuelatuya.com/musica/" target="_blank">Musica</a>
-            </li>
-            <li>
-                <a class="nav_link" href="https://astelus.com/bailes-tipicos-venezuela/" target="_blank">Danza</a>
-            </li>
-            <li>
-                <a class="nav_link" href="https://www.youtube.com/watch?v=awhC5ARaClg&t=10s"  target="_blank">Historia</a>
-            </li>
-        </ul>
-    </nav>
-     <!--------## primer Articulo ##------------>
-    <section class="section__container">
-        <article class="art__container">
-            <div class="container_tipica">
-                <h2 class="title_tipica">"Comidad Tipica de Venezuela"</h2>
-                <p class="text_pagraf">Las comidas más conocidas de la gastronomía venezolana 
+    
+     <!--------## Main ##------------>
+    <main class="main__container">
+        <section class="main__section">
+            <article class="main_art">
+                <h2 class="main_title_art">"Comidad Tipica de Venezuela"</h2>
+                <p class="main_paragraph">Las comidas más conocidas de la gastronomía venezolana 
                 son las asociadas con el maíz, más que nada con las harinas
                 de maíz, por las famosas arepas; también el pabellón criollo,
                 con su arroz blanco, los frijoles negros, la carne mechada y el plátano. 
@@ -59,21 +62,26 @@
                 cocina sabrosa, de platos abundantes y nutritivos.
                 pero en este caso vamos hablar de solos 2 tipos de platos que son:
                 </p>
-            </div>
-            <div class="conteiner-art">
-                <h2 class="title">Arepas</h2>
-                <div class="menu__conatiner">
-                    <div class="container-list">
-                        <h3 class="title__menu">Tipos de arepas</h3>
-                        <ul class="list_menu">
+            </article>
+            <div class="menu_container">
+                <div class="menu_title">
+                    <h2 class="title">Tipos de Arepa</h2>
+                </div>
+                <div class="menu_paragraph">
+                    <p><mark>"La Arepa"</mark> es un alimento hecho a base de harina de maíz precocida o de maíz seco molido, ideal para ser incluido en el desayuno, en el almuerzo o incluso en la cena. Es típico de Venezuela y Colombia, y en los últimos tiempos se está convirtiendo en una buena alternativa para sustituir al pan.</p>
+                </div>
+                <div class="menu_ingr_container">
+                    <div class="menu">
+                        <h3 class="menu_ingr">¿con que se rellena?</h3>
+                        <ul class="menu_list">
                             <li>
                                 <ol class="list1">
-                                    <li class="list">Perico</li>
-                                    <li class="list">Gringa</li>
-                                    <li class="list">Llanera</li>
-                                    <li class="list">Mechada</li>
-                                    <li class="list">Pelúa</li>
-                                    <li class="list">Pernil</li>
+                                    <li class="list">"Arepa Perico"</li>
+                                    <li class="list">"Arepa Gringa"</li>
+                                    <li class="list">"Arepa Llanera"</li>
+                                    <li class="list">"Arepa Mechada"</li>
+                                    <li class="list">"Arepa Pelúa"</li>
+                                    <li class="list">"Arepa Pernil"</li>
                                 </ol>
                             </li>
                         </ul>
@@ -81,25 +89,25 @@
                     <div class="visual__conatiner">
                         <img class="img img--1" src="./img/arepa2.jpg" alt="img-Arepa" >
                         <img class="img img--2" src="./img/arepa1.jpg" alt="img_2-Arepa" >
-                        <iframe class="video-iframe" width="600px" height="350px" src="https://www.youtube.com/embed/ZyLq2VNr428" 
+                        <iframe class="video-iframe" src="https://www.youtube.com/embed/ZyLq2VNr428" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-        </article>
+        </section>
         <!--------## Segundo Articulo ##----------->
-        <article class="art__container art2">
-            <div class="container_tipica">
-                <h2 class="title_tipica">¿Qué es tequeño en español?</h2>
-                <p class="text_pagraf">Adjetivo. Persona originaria o habitante de Los Teques, en Venezuela. 
-                    Se dice de algo que proviene o tiene relación con Los Teques, en Venezuela.</p>
-            </div>
-            <div class="conteiner-art">
-                <h2 class="title">Tequeños</h2>
-                <div class="menu__conatiner">
-                    <div class="container-list">
-                        <h3 class="title__menu">Ingredientes</h3>
-                        <ul class="list_menu">
+        <section class="main__section art2">
+            <div class="menu_container">
+                <div class="menu_title">
+                    <h2 class="title">tequeño</h2>
+                </div>
+                <div class="menu_paragraph">
+                    <p>La más consolidada dice que el tequeño fue una invención de las empleadas del hogar de las familias adineradas de la ciudad de Los Teques, en Venezuela; para no desaprovechar la masa sobrante de hacer el pan, la utilizaban para envolver el queso y freírlos a modo de aperitivo.</p>
+                </div>
+                <div class="menu_ingr_container">
+                    <div class="menu">
+                        <h3 class="menu_ingr">preparacion</h3>
+                        <ul class="menu_list">
                             <li>
                                 <ol class="list2">
                                     <li class="list">1/2 kg. de harina de trigo con fuerza W220 o harina de trigo con 11,5 - 12,5 % de proteínas</li>
@@ -117,32 +125,41 @@
                     <div class="visual__conatiner">
                         <img class="img img--1" src="./img/teque1.jpg" alt="img-tequeños">
                         <img class="img img--2" src="./img/teque2.jpg" alt="img_2-Tequeños">
-                        <iframe class="video-iframe" width="600px" height="350px" src="https://www.youtube.com/embed/Rc6mMDd5elQ" title="YouTube video player"
-                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="video-iframe" src="https://www.youtube.com/embed/Rc6mMDd5elQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-        </article>
-    </section>
-    <aside>
+        </section>
+    </main>
+    <aside class="map_vnzla">
         <div class="sect__map">
             <h2 class="title__vnzla">MAPA DE VENEZUELA</h2>
             <iframe class="mapa_vnzla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8116212.557405608!2d-71.12676476159272!3d6.647612704215178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1ses-419!2sar!4v1663127482826!5m2!1ses-419!2sar"
             width="600" height="450" style="border: solid 7px white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-            <audio class="audio__music" src="audio/y2mate.com - VIVA VENEZUELA  UN SOLO PUEBLO.mp3" controls></audio>
+            <audio class="audio__music" src="audio/y2mate.com - VIVA VENEZUELA  UN SOLO PUEBLO.mp3" controls autoplay></audio>
         </div>
    </aside>
-    <!-- buttom__whatsapp -->
-        <div class="container__btc--wsp">
-            <a href="https://wa.me/+541155283823" target="_blank">
-                <img class="btc__wsp" src="img/whatsapp.svg" alt="">
-            </a>
+    <!-- buttom__flotante -->
+        <div class="btn__container">
+            <input type="checkbox" id="btn-mas">
+                <div class="redes">
+                    <a href="https://www.facebook.com/jonat.vas" class="fa fa-facebook" target="_blank"></a>
+                    <a href="https://www.instagram.com/jonatdance/" class="fa fa-instagram" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/jonathan-vasquez-72a30b24b/" class="fa fa-linkedin" target="_blank"></a>
+                    <a href="https://wa.me/+541155283823" class="fa fa-whatsapp  " target="_blank"></a>
+                </div>
+                <div class="btn-mas">
+                    <label for="btn-mas" class="fa fa-plus icon_mas2"></label>
+                </div>
         </div>
-  <!------## footer ##------->
+  <!------## footer ##----->
     <footer>
-        <div class="footer__container">
+        <section class="footer__container">
             <div class="text__autor">
-                <h3>Creador:<span class="name">Jonathan Vasquez</span></h3>
+                <h4>Creador:<span class="name">Jonathan Vasquez</span></h4>
+            </div>
+            <div class="footer_localidad">
+                <a href="https://goo.gl/maps/HHosbT8dovMsCe4L8" target="_blank">Localidad</a>
             </div>
             <div class="social__container">
                 <div class="text__red-social">
@@ -152,9 +169,10 @@
                     <a href="https://www.facebook.com/jonat.vas" class="fa fa-facebook redes_social social--face " target="_blank"></a>
                     <a href="https://www.instagram.com/jonatdance/" class="fa fa-instagram redes_social social--insta" target="_blank"></a>
                     <a href="https://www.linkedin.com/in/jonathan-vasquez-72a30b24b/" class="fa fa-linkedin redes_social social--link" target="_blank"></a>
+                    <a href="https://wa.me/+541155283823" class="fa fa-whatsapp redes_social social--wsapp" target="_blank"></a>
                 </div>
             </div>
-        </div>
+        </section>
     </footer>
     </body>
 </html>
