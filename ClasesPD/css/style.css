@@ -289,6 +289,7 @@ body {
 .visual__conatiner {
     width: 100%;
     margin: 10px;
+    text-align: center;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.823),rgba(0, 0, 0, 0.413)), url("../img/fondo.jpg");
     border-radius: 30px;
     border: 2px solid #09203f;
