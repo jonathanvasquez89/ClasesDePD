@@ -49,7 +49,7 @@ body {
 }
 
 .nav__logo {
-    flex-basis: 20%;
+    flex-basis: 30%;
 }
 
 .logo {
@@ -97,11 +97,11 @@ body {
 }
 /* SUB-TITLE */
 .subtitle_container {
-    width: 50vw;
+    width: 80%;
     margin-top: 50px;
 }
 
-.title_turismo {
+.title_comida {
     font-size: 1.8rem;
     color: var(--cielo);
     text-align: center;
@@ -109,7 +109,7 @@ body {
     border-radius:   0 15px;
 }
 
-.turismo__btn {
+.comida__btn {
     display: block;
     width: 200px;
     margin: 0 auto;
@@ -124,12 +124,12 @@ body {
     text-decoration: none;
 }
 
-.turismo__btn:hover {
+.comida__btn:hover {
     background-color: #09203f;
     box-shadow: 0px 5px 15px black;
 }
 
-.turismo__btn:active {
+.comida__btn:active {
     background-color: var(--gray);
 }
 
@@ -185,7 +185,6 @@ body {
 
 .main_art {
     width: 90%;
-    height: 80vh;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -316,6 +315,7 @@ body {
     width: 400px;
     height: 200px;
     margin: auto;
+    margin-bottom: 10px;
     padding:  5px;
     background: linear-gradient(45deg, rgba(255, 255, 0, 0.65), rgba(0, 0, 255, 0.642), rgba(255, 0, 0, 0.591));
     border-radius: 20px;
@@ -335,11 +335,12 @@ body {
     margin-bottom: 50px;
 }
 
+.title_vnzla {
+    width: 100%;
+    padding: 20px;
+}
+
 .title__vnzla {
-    width: 30vw;
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
     text-align: center;
     font-size: 2rem;
     color: var(--white);
@@ -450,6 +451,128 @@ body {
 .btn:active {
     background-color: var(--color_blue);
 }
+
 .btn:hover {
     background-color: antiquewhite;
+}
+
+
+/* responsivo table */
+@media screen and (max-width:630px) {
+
+    .hero__title {
+        font-family: "font-zesant";
+        font-size: 50px;
+        color: var(--white);
+        text-shadow: 5px 10px 15px black;
+    }
+    
+    .main__container {
+        width: 100%;
+    }
+    
+    .visual__conatiner {
+        width: 100%;
+        margin: 10px;
+        text-align: center;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.823),rgba(0, 0, 0, 0.413)), url("../img/fondo.jpg");
+        border-radius: 30px;
+        border: 2px solid #09203f;
+    }
+
+    .img {
+        width: 200px;
+        height: 200px;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 20px;
+        object-fit: cover;
+        background: linear-gradient(45deg, rgba(255, 255, 0, 0.65), rgba(0, 0, 255, 0.642), rgba(255, 0, 0, 0.591));
+    }
+    
+    
+    .video_iframe {
+        display: block;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 10px;
+        padding: 5px;
+        background: linear-gradient(45deg, rgba(255, 255, 0, 0.65), rgba(0, 0, 255, 0.642), rgba(255, 0, 0, 0.591));
+        border-radius: 20px;
+    }
+
+    .menu_ingr_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .menu_cont{
+        flex-basis: 70%;
+        margin: 10px;
+    }
+    
+    .menu_list {
+        margin-top: 40px;
+        color: var(--white);
+        list-style: none;
+    }
+    
+    .list1 {
+        width: 80%;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 50px;
+        list-style: circle;
+    }
+    
+    .list2 {
+        list-style: circle;
+        margin-left: 70px;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    /* mapa de vnzla */
+
+
+    .audio__music {
+        display: none;
+    }
+      /* hero nav */
+    .nav__logo {
+        flex-basis: 50%;
+    }
+
+     
+    .hero_title_nav {
+        display: none;
+    }
+
+    .icon__social {
+        flex-basis: 50%;
+    }
+
+      /* footer */
+
+    .social__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70vh;
+        background-color: #09203f;
+    }
+
+    
+    .map_localidad {
+        width: 100%;
+        height: 150px;
+        flex-basis: 30%;
+    }
+  
+   
 }
