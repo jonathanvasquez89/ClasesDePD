@@ -21,13 +21,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Script -->
+  <script>
+    alert("Bienvenidos a esta Web de reseta de comida Venezolana");
+  </script>
 </head>
+
 <body>
   <!--****Header_Con_Nav****-->
   <header id="header_hero" class="hero hero_container">
     <section class="hero_nav_social">
       <figure class="nav__logo">
-        <a  href="./index.html"><img class="logo" src="./img/logo.png"></a>
+        <a href="./index.html"><img class="logo" src="./img/logo.png"></a>
       </figure>
       <div class="hero_title_nav">
         <h2 class="title_nav">Recetas</h2>
@@ -41,6 +46,11 @@
           <a href="https://www.linkedin.com/in/jonathan-vasquez-72a30b24b/"
             class="fa fa-linkedin     redes_social social_hero" target="_blank"></a>
           <a href="https://wa.me/+541155283823" class="fa fa-whatsapp redes_social social_hero" target="_blank"></a>
+         <!-- slider - btn -->
+          <label class="switch">
+            <input type="checkbox" id="slider" checked>
+            <span class="slider"></span>
+          </label>
         </div>
     </section>
     <section class="hero__container">
@@ -53,8 +63,7 @@
     <nav class="hero__nav">
       <ul class="link_container">
         <li>
-          <a class="nav_link" href="#"
-            target="_blank">Inicio</a>
+          <a class="nav_link" href="#" target="_blank">Inicio</a>
         </li>
         <li>
           <a class="nav_link" href="#" target="_blank">Contacto</a>
@@ -69,12 +78,12 @@
     </nav>
   </header>
 
-  <!--------## Main ##------------>
+  <!--## Main ##-->
   <main class="main__container">
     <section class="section_container">
-      <article class="section_art">
-        <h2 class="main_title_art">"Comidad Tipica de Venezuela"</h2>
-        <p class="main_paragraph">Las comidas más conocidas de la gastronomía venezolana
+      <article class="section_article">
+        <h2 class="section_title_art">"Comidad Tipica de Venezuela"</h2>
+        <p class="section_paragraph">Las comidas más conocidas de la gastronomía venezolana
           son las asociadas con el maíz, más que nada con las harinas
           de maíz, por las famosas arepas; también el pabellón criollo,
           con su arroz blanco, los frijoles negros, la carne mechada y el plátano.
@@ -85,97 +94,109 @@
         </p>
       </article>
     </section>
-    <section>
-      <div class="menu_container">
-        <div class="menu_title">
-          <h2 class="title">Tipos de Arepa</h2>
-          <p class="menu_paragraph">La Arepa" es un alimento hecho a base de harina de maíz precocida o de maíz seco
-            molido, ideal para ser incluido en el desayuno, en el almuerzo o incluso en la cena. Es típico de Venezuela
-            y Colombia, y en los últimos tiempos se está convirtiendo en una buena alternativa para sustituir al pan.
-          </p>
-        </div>
-        <div class="menu_ingr_container">
-          <div class="menu_cont">
-            <h3 class="menu_ingr">¿con que se rellena?</h3>
-            <ul class="menu_list">
-              <li>
-                <ol class="list1">
-                  <li class="list">"Arepa Perico"</li>
-                  <li class="list">"Arepa Gringa"</li>
-                  <li class="list">"Arepa Llanera"</li>
-                  <li class="list">"Arepa Mechada"</li>
-                  <li class="list">"Arepa Pelúa"</li>
-                  <li class="list">"Arepa Pernil"</li>
-                </ol>
-              </li>
-            </ul>
+    <div class="main_article">
+      <section class="article">
+        <!-- primer Articulo -->
+        <article class="menu_container">
+          <div class="menu_title">
+            <h2 class="title">Tipos de Arepa</h2>
+            <p class="menu_paragraph">La Arepa" es un alimento hecho a base de harina de maíz precocida o de maíz seco
+              molido, ideal para ser incluido en el desayuno, en el almuerzo o incluso en la cena. Es típico de
+              Venezuela
+              y Colombia, y en los últimos tiempos se está convirtiendo en una buena alternativa para sustituir al
+              pan.
+            </p>
           </div>
-          <div class="visual__conatiner">
-            <img class="img" src="./img/arepa2.jpg" alt="img-Arepa">
-            <img class="img" src="./img/arepa1.jpg" alt="img_2-Arepa">
-            <iframe class="video_iframe" src="https://www.youtube.com/embed/ZyLq2VNr428" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+          <div class="menu_ingr_container">
+            <div class="menu_cont">
+              <h3 class="menu_ingr">¿con que se rellena?</h3>
+              <ul class="menu_list">
+                <li>
+                  <ol class="list1">
+                    <li class="list">"Arepa Perico"</li>
+                    <li class="list">"Arepa Gringa"</li>
+                    <li class="list">"Arepa Llanera"</li>
+                    <li class="list">"Arepa Mechada"</li>
+                    <li class="list">"Arepa Pelúa"</li>
+                    <li class="list">"Arepa Pernil"</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+            <div class="visual__conatiner">
+              <img class="img" src="./img/arepa2.jpg" alt="img-Arepa">
+              <img class="img" src="./img/arepa1.jpg" alt="img_2-Arepa">
+              <iframe class="video_iframe" src="https://www.youtube.com/embed/ZyLq2VNr428" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </article>
+        <!--## Segundo Articulo ##-->
+        <article class="menu_container art2">
+          <div class="menu_title">
+            <h2 class="title">tequeño</h2>
+            <p class="menu_paragraph">La más consolidada dice que el tequeño fue una invención de las empleadas del
+              hogar
+              de las familias adineradas de la ciudad de Los Teques, en Venezuela; para no desaprovechar la masa
+              sobrante
+              de hacer el pan, la utilizaban para envolver el queso y freírlos a modo de aperitivo.</p>
+          </div>
+          <div class="menu_ingr_container">
+            <div class="menu_cont">
+              <h3 class="menu_ingr">preparacion</h3>
+              <ul class="menu_list">
+                <li>
+                  <ol class="list2">
+                    <li class="list">1/2 kg. de harina de trigo con fuerza W220 o harina de trigo con 11,5 - 12,5 % de
+                      proteínas</li>
+                    <li class="list">1 huevo grande</li>
+                    <li class="list">120 g. de mantequilla</li>
+                    <li class="list">1/2 cucharada de sal</li>
+                    <li class="list">110 ml de agua tibia</li>
+                    <li class="list">Queso blanco duro llanero (el de San Simón da Costa Daniberto de Galicia Calidade
+                      le
+                      va perfecto) cortado en palitos de unos 7 x 2 cm.</li>
+                    <li class="list">100 g. de jamón cocido o jamón de pavo (para hacer 2 tipos de tequeños)</li>
+                    <li class="list">Aceite de oliva virgen extra suave para freir</li>
+                  </ol>
+                </li>
+              </ul>
+            </div>
+            <div class="visual__conatiner">
+              <img class="img" src="./img/teque1.jpg" alt="img-tequeños">
+              <img class="img" src="./img/teque2.jpg" alt="img_2-Tequeños">
+              <iframe class="video_iframe" src="https://www.youtube.com/embed/Rc6mMDd5elQ" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </article>
+      </section>
+      <!--parte de Aside -->
+      <aside class="aside_container">
+        <div class="aside__map">
+          <div class="title_vnzla">
+            <h2 class="title__vnzla">MAPA DE VENEZUELA</h2>
+          </div>
+          <iframe class="mapa_vnzla"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8116212.557405608!2d-71.12676476159272!3d6.647612704215178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1ses-419!2sar!4v1663127482826!5m2!1ses-419!2sar"
+            style="border: solid 3px white;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class= "container_map_paragraph">
+            <p class="paragraph_map">Venezuela posee un lugar privilegiado en la historia de la cartografía americana; ya que ésta, en su etapa inicial, se identifica por completo con la venezolana debido a que la parte del Nuevo Continente donde pisaron por primera vez los descubridores europeos es hoy tierra venezolana, a la que entonces denominaron Tierra Firme. Siempre se ha considerado como el primer mapa conocido de Venezuela el trazado por Juan de la Cosa en su viaje de 1499-1500. De regreso a España en 1500, de la Cosa dibujó un mapamundi, en el cual, hacia la entrada del lago de Maracaibo, aparece por primera vez el nombre de Venezuela, escrito como Veneçuela. El original de este mapa se encuentra en el Museo Naval de Madrid y mide 1,83 x 0,93 m. Es sabido que el mismo Cristóbal Colón, en sus viajes, dibujó varias cartas marinas de las tierras descubiertas por él, que se pueden considerar como el punto de partida de la cartografía americana. <a href="https://www.cervantesvirtual.com/portales/portal_nacional_venezuela/cartografia/" target="_blank">para leer mas</a></p>
+          </div>
+          <div class="container_audio">
+            <h4 class="title_music">Esta musica es un icono Nacional</h4>
+            <audio class="audio" src="audio/y2mate.com - VIVA VENEZUELA  UN SOLO PUEBLO.mp3" controls></audio>
           </div>
         </div>
-      </div>
-    </section>
-    <!--------## Segundo Articulo ##----------->
-    <section class="main__section art2">
-      <div class="menu_container">
-        <div class="menu_title">
-          <h2 class="title">tequeño</h2>
-          <p class="menu_paragraph">La más consolidada dice que el tequeño fue una invención de las empleadas del hogar
-            de las familias adineradas de la ciudad de Los Teques, en Venezuela; para no desaprovechar la masa sobrante
-            de hacer el pan, la utilizaban para envolver el queso y freírlos a modo de aperitivo.</p>
-        </div>
-        <div class="menu_ingr_container">
-          <div class="menu_cont">
-            <h3 class="menu_ingr">preparacion</h3>
-            <ul class="menu_list">
-              <li>
-                <ol class="list2">
-                  <li class="list">1/2 kg. de harina de trigo con fuerza W220 o harina de trigo con 11,5 - 12,5 % de
-                    proteínas</li>
-                  <li class="list">1 huevo grande</li>
-                  <li class="list">120 g. de mantequilla</li>
-                  <li class="list">1/2 cucharada de sal</li>
-                  <li class="list">110 ml de agua tibia</li>
-                  <li class="list">Queso blanco duro llanero (el de San Simón da Costa Daniberto de Galicia Calidade le
-                    va perfecto) cortado en palitos de unos 7 x 2 cm.</li>
-                  <li class="list">100 g. de jamón cocido o jamón de pavo (para hacer 2 tipos de tequeños)</li>
-                  <li class="list">Aceite de oliva virgen extra suave para freir</li>
-                </ol>
-              </li>
-            </ul>
-          </div>
-          <div class="visual__conatiner">
-            <img class="img" src="./img/teque1.jpg" alt="img-tequeños">
-            <img class="img" src="./img/teque2.jpg" alt="img_2-Tequeños">
-            <iframe class="video_iframe" src="https://www.youtube.com/embed/Rc6mMDd5elQ" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
+      </aside>
+    </div>
   </main>
 
-    <!--parte de Aside -->
-  <!-- <aside class="aside_container">
-    <div class="aside__map">
-      <div class="title_vnzla">
-        <h2 class="title__vnzla">MAPA DE VENEZUELA</h2>
-      </div>
-      <iframe class="mapa_vnzla" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8116212.557405608!2d-71.12676476159272!3d6.647612704215178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2853cb36cbd801%3A0xdca0f2587cd54dd3!2sVenezuela!5e0!3m2!1ses-419!2sar!4v1663127482826!5m2!1ses-419!2sar"
-     style="border: solid 3px white;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-      <audio class="audio__music" src="audio/y2mate.com - VIVA VENEZUELA  UN SOLO PUEBLO.mp3" controls></audio> 
-    </div>
-  </aside>
-   -->
-   
   <!-- card -->
   <div class="card_container">
     <div class="container">
@@ -185,8 +206,11 @@
             <img src="./img/gastronomia.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Gastronomia</h5>
-              <p class="card-text">La Gastronomía Venezolana es el resultado de un mestizaje producido en los tiempos de la colonia; aborígenes, españoles y africanos fueron los encargados de unir sus culturas y dar origen a lo que hoy conocemos como la cocina criolla.</p>
-              <a href="https://viajerocasual.com/comidas-tipicas-de-venezuela/" class="btn btn-primary" target="_blank">Ir a pagina</a>
+              <p class="card-text">La Gastronomía Venezolana es el resultado de un mestizaje producido en los tiempos de
+                la colonia; aborígenes, españoles y africanos fueron los encargados de unir sus culturas y dar origen a
+                lo que hoy conocemos como la cocina criolla.</p>
+              <a href="https://viajerocasual.com/comidas-tipicas-de-venezuela/" class="btn btn-primary"
+                target="_blank">Ir a pagina</a>
             </div>
           </div>
         </div>
@@ -195,7 +219,9 @@
             <img src="./img/musica.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Musica</h5>
-              <p class="card-text">La música venezolana se caracteriza por la mezcla de ritmos indígenas, españoles y africanos, debido a los orígenes mestizos de su sociedad. Por esto, hay una gran variedad de estilos musicales que van desde el joropo hasta el vals venezolano.</p>
+              <p class="card-text">La música venezolana se caracteriza por la mezcla de ritmos indígenas, españoles y
+                africanos, debido a los orígenes mestizos de su sociedad. Por esto, hay una gran variedad de estilos
+                musicales que van desde el joropo hasta el vals venezolano.</p>
               <a href="https://www.venezuelatuya.com/musica/" class="btn btn-primary" target="_blank">Ir a pagina</a>
             </div>
           </div>
@@ -205,8 +231,11 @@
             <img src="./img/danza.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Danza</h5>
-              <p class="card-text">En la cultura venezolana hallamos diferentes bailes tradicionales que resultan interesantes y pintorescos. En este artículo, te hablamos de los más destacados, te indicamos en qué estados y regiones se bailan, y te mostramos imágenes y vídeos sobre ellos.</p>
-              <a href="https://astelus.com/bailes-tipicos-venezuela/" class="btn btn-primary" target="_blank">Ir a pagina</a>
+              <p class="card-text">En la cultura venezolana hallamos diferentes bailes tradicionales que resultan
+                interesantes y pintorescos. En este artículo, te hablamos de los más destacados, te indicamos en qué
+                estados y regiones se bailan, y te mostramos imágenes y vídeos sobre ellos.</p>
+              <a href="https://astelus.com/bailes-tipicos-venezuela/" class="btn btn-primary" target="_blank">Ir a
+                pagina</a>
             </div>
           </div>
         </div>
@@ -215,15 +244,18 @@
             <img src="./img/Historia-de-Venezuela.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Historia</h5>
-              <p class="card-text">Venezuela fue avistada por primera vez durante el tercer viaje de Cristóbal Colón, el 1 de agosto de 1498, cuando llegó a la desembocadura del río Orinoco después de haber pasado frente a la isla Trinidad.Era la primera vez que los españoles tocaban tierra firme continental.</p>
-              <a href="https://www.youtube.com/watch?v=awhC5ARaClg&t=10s" class="btn btn-primary" target="_blank">Ir a video</a>
+              <p class="card-text">Venezuela fue avistada por primera vez durante el tercer viaje de Cristóbal Colón, el
+                1 de agosto de 1498, cuando llegó a la desembocadura del río Orinoco después de haber pasado frente a la
+                isla Trinidad.Era la primera vez que los españoles tocaban tierra firme continental.</p>
+              <a href="https://www.youtube.com/watch?v=awhC5ARaClg&t=10s" class="btn btn-primary" target="_blank">Ir a
+                video</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+
   <!-- buttom__flotante -->
   <div class="btn__container">
     <a href="#header_hero" class="fa-sharp fa-solid fa-arrow-up btn_flotante"></a>
@@ -249,12 +281,13 @@
           <a href="https://wa.me/+541155283823" class="fa fa-whatsapp redes_social social_footer" target="_blank"></a>
         </div>
       </div>
-      <div class="text__autor">
-        <h4>Creador:<span class="name">Jonathan Vasquez</span></h4>
-        <address>Buenos Aires - Argentina</address>
+      <div class="container__autor">
+       <button onclick="autor()" class="btn__creador">Creador:</button>
       </div>
     </div>
   </footer>
+  <!-- JS -->
+  <script src="./js/main.js"></script>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
